@@ -1,0 +1,26 @@
+img {
+	width: 300px;
+	border-radius: 8px;
+	margin: 20px;
+}
+
+.cachorro:hover {
+	filter: grayscale(100%);
+}
+
+.praia:hover {
+	filter: brightness(50%);
+}
+
+.carrinho {
+	color: red;
+	border: 2px solid red;
+	border-radius: 8px;
+	padding: 20px;
+	margin: 20px;
+}
+
+.carrinho:hover {
+	color: green;
+	border-color: green;
+}

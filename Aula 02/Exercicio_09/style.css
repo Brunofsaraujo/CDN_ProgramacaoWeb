@@ -1,0 +1,62 @@
+body {
+	font-family: arial;
+	font-size: 13px;
+	margin: 20px;
+}
+
+table {
+	width: 700px;
+	border-collapse: collapse;
+}
+
+td {
+	padding: 4px 6px;
+	vertical-align: middle;
+}
+
+#titulo {
+	background-color: skyblue;
+	color: black;
+	padding: 5px 6px;
+}
+
+#faixa-azul {
+	background-color: navy;
+}
+
+.rotulo {
+	width: 90px;
+	padding-right: 10px;
+}
+
+input[type='text'],
+input[type='email'],
+input[type='password'] {
+	width: 100%;
+	padding: 3px;
+	box-sizing: border-box;
+}
+
+select {
+	padding: 2px;
+}
+
+input[type='radio'],
+input[type='checkbox'] {
+	margin-right: 4px;
+	vertical-align: middle;
+}
+
+.assuntos label {
+	margin-right: 18px;
+	white-space: nowrap;
+}
+
+p {
+	margin: 12px 0;
+}
+
+#botoes input {
+	padding: 3px 12px;
+	margin-right: 6px;
+}

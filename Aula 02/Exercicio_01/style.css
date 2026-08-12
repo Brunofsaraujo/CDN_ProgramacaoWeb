@@ -1,10 +1,14 @@
 h1 {
-    background-color: green;
-    font-weight: 900;
-    font-style: italic;
-    font-family: Arial;
-    color: yellow;
-    padding: 15px;
-    margin: 10px;
-    border-radius: 10px;
+	background-color: green;
+	font-weight: 900;
+	font-style: italic;
+	font-family: Arial;
+	color: yellow;
+	padding: 20px;
+	margin: 10px;
+	border-radius: 10px;
+}
+
+#texto {
+	width: fit-content;
 }

@@ -1,0 +1,14 @@
+li {
+	list-style-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 24 24'><path fill='red' d='M4 10h10V6l6 6-6 6v-4H4z'/></svg>");
+	color: red;
+	font-family: verdana;
+	font-size: 12px;
+	border-bottom: 1px solid red;
+	padding: 8px 0;
+}
+
+li:hover {
+	list-style-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 24 24'><path fill='green' d='M4 10h10V6l6 6-6 6v-4H4z'/></svg>");
+	color: green;
+	border-bottom-color: green;
+}

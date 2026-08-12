@@ -1,25 +1,42 @@
 #vermelho {
-    color: red;
-    font-family: Arial;
+	color: red;
+	font-family: 'Arial';
+	border: red solid 1px;
+	padding: 15px;
+	margin: 15px 0;
+	border-radius: 10px;
 }
 
 #verde {
-    color: green;
-    font-family: Times;
-    font-size: 22px;
+	color: green;
+	font-family: 'Times';
+	font-size: 22px;
+	border: green solid 1px;
+	padding: 15px;
+	margin: 15px 0;
+	border-radius: 10px;
 }
 
 #azul {
-    color: blue;
-    font-family: Comic Serif;
-    font-size: 20px;
-    font-style: italic;
+	color: blue;
+	font-family: 'Comic Serif';
+	font-size: 20px;
+	font-style: italic;
+	border: blue solid 1px;
+	padding: 15px;
+	margin: 15px 0;
+	border-radius: 10px;
 }
 
 #amarelo {
-    color: yellow;
-    font-weight: bold;
-    font-size: 14px;
-    font-family: Verdana;
-    font-weight: 300;
+	background-color: #fdfbef;
+	color: #fddb1c;
+	font-weight: bold;
+	font-size: 14px;
+	font-family: 'Verdana';
+	font-weight: 300;
+	border: 1px solid #fddb1c;
+	padding: 15px;
+	margin: 15px 0;
+	border-radius: 10px;
 }

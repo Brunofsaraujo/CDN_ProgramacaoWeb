@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Bruno Araujo">
+    <title>Exercicio 08</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <form>
+        <img id="escriturario" src="https://cdn-icons-png.flaticon.com/128/3135/3135715.png" alt="">
+
+        <fieldset id="geral">
+            <legend>Cadastro Geral</legend>
+
+            <div class="linha">
+                <fieldset class="metade" id="dados">
+                    <legend>Dados pessoais</legend>
+                    <p>Nome completo:</p>
+                    <input type="text" name="nome">
+                    <p>Profissão:</p>
+                    <select name="profissao">
+                        <option>Sua profissão</option>
+                        <option>Estudante</option>
+                        <option>Professor</option>
+                        <option>Programador</option>
+                    </select>
+                </fieldset>
+
+                <fieldset class="metade" id="local">
+                    <legend>Localização</legend>
+                    <p>E-mail:</p>
+                    <input type="email" name="email">
+                    <p>Rua:</p>
+                    <input type="text" name="rua">
+                </fieldset>
+            </div>
+
+            <fieldset id="faixa">
+                <legend>Faixa etária</legend>
+                <div class="linha">
+                    <div class="metade">
+                        <p><input type="radio" name="idade"> até 20 anos</p>
+                        <p><input type="radio" name="idade"> mais de 20 até 30 anos</p>
+                        <p><input type="radio" name="idade"> mais de 30 até 40 anos</p>
+                    </div>
+                    <div class="metade">
+                        <p><input type="radio" name="idade"> mais de 40 até 50 anos</p>
+                        <p><input type="radio" name="idade"> mais de 50 até 60 anos</p>
+                        <p><input type="radio" name="idade"> mais de 60</p>
+                    </div>
+                </div>
+            </fieldset>
+
+            <fieldset id="esportes">
+                <legend>Esportes que pratica</legend>
+                <p><input type="checkbox" name="esporte"> Futebol de campo</p>
+                <p><input type="checkbox" name="esporte"> Futebol de salão</p>
+                <p><input type="checkbox" name="esporte"> Futebol society</p>
+                <p><input type="checkbox" name="esporte"> Volley de quadra</p>
+                <p><input type="checkbox" name="esporte"> Volley de praia</p>
+                <p><input type="checkbox" name="esporte"> Natação em piscina</p>
+                <p><input type="checkbox" name="esporte"> Natação em mar aberto</p>
+            </fieldset>
+
+            <fieldset id="comentario">
+                <legend>Comentário</legend>
+                <p>Mensagem:</p>
+                <textarea name="mensagem" rows="6" cols="50"></textarea>
+            </fieldset>
+
+            <p id="botoes">
+                <input type="submit" value="Enviar">
+                <input type="reset" value="Limpar">
+            </p>
+        </fieldset>
+    </form>
+</body>
+
+</html>

@@ -1,0 +1,104 @@
+body {
+	font-family: verdana;
+	font-size: 12px;
+}
+
+form {
+	background-color: #f5fff5;
+	width: 700px;
+}
+
+fieldset {
+	border: 1px solid green;
+	margin: 10px;
+}
+
+legend {
+	color: green;
+	font-weight: bold;
+	background-color: #e8ffe8;
+	border: 1px solid green;
+	padding: 2px 8px;
+}
+
+.linha {
+	display: flex;
+}
+
+.metade {
+	width: 50%;
+}
+
+input[type='text'],
+input[type='email'],
+select {
+	width: 90%;
+}
+
+p {
+	margin: 5px 0;
+}
+
+#botoes {
+	margin-left: 10px;
+}
+
+#escriturario {
+	width: 70px;
+	opacity: 0.7;
+	float: left;
+	margin: 5px 5px 0 0;
+}
+
+#geral {
+	overflow: hidden;
+}
+
+#dados,
+#local,
+#faixa,
+#esportes,
+#comentario {
+	background-repeat: no-repeat, no-repeat;
+	background-position:
+		center,
+		right 10px center;
+	background-size: cover, 60px;
+	padding: 10px 12px;
+}
+
+#esportes,
+#comentario {
+	background-size: cover, 80px;
+	padding-right: 100px;
+}
+
+#dados {
+	background-image:
+		linear-gradient(rgba(245, 255, 245, 0.75), rgba(245, 255, 245, 0.75)),
+		url('https://cdn-icons-png.flaticon.com/128/1077/1077114.png');
+}
+
+#local {
+	background-image:
+		linear-gradient(rgba(245, 255, 245, 0.75), rgba(245, 255, 245, 0.75)),
+		url('https://cdn-icons-png.flaticon.com/128/1497/1497728.png');
+}
+
+#faixa {
+	background-image:
+		linear-gradient(rgba(245, 255, 245, 0.75), rgba(245, 255, 245, 0.75)),
+		url('https://cdn-icons-png.flaticon.com/128/1077/1077063.png');
+}
+
+#esportes {
+	background-image:
+		linear-gradient(rgba(245, 255, 245, 0.75), rgba(245, 255, 245, 0.75)),
+		url('https://cdn-icons-png.flaticon.com/128/2936/2936886.png');
+}
+
+#comentario {
+	background-image:
+		linear-gradient(rgba(245, 255, 245, 0.75), rgba(245, 255, 245, 0.75)),
+		url('https://cdn-icons-png.flaticon.com/128/1370/1370907.png');
+}

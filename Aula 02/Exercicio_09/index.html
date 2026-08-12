@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Bruno Araujo">
+    <title>Exercicio 09</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <form>
+        <table>
+            <tr>
+                <td id="titulo" colspan="2">Não é associado? Faça seu cadastro</td>
+                <td id="faixa-azul" colspan="2"></td>
+            </tr>
+            <tr>
+                <td class="rotulo">Nome</td>
+                <td colspan="3"><input type="text" name="nome"></td>
+            </tr>
+            <tr>
+                <td class="rotulo">Nome Completo</td>
+                <td colspan="3"><input type="text" name="nome_completo"></td>
+            </tr>
+            <tr>
+                <td class="rotulo">CPF</td>
+                <td colspan="3"><input type="text" name="cpf"></td>
+            </tr>
+            <tr>
+                <td class="rotulo">E-mail</td>
+                <td colspan="3"><input type="email" name="email"></td>
+            </tr>
+            <tr>
+                <td class="rotulo">WebSite</td>
+                <td colspan="3"><input type="text" name="site"></td>
+            </tr>
+            <tr>
+                <td class="rotulo">Endereço</td>
+                <td colspan="3"><input type="text" name="endereco"></td>
+            </tr>
+            <tr>
+                <td class="rotulo">Bairro</td>
+                <td><input type="text" name="bairro"></td>
+                <td class="rotulo">Cidade</td>
+                <td><input type="text" name="cidade"></td>
+            </tr>
+            <tr>
+                <td class="rotulo">Cep</td>
+                <td><input type="text" name="cep"></td>
+                <td class="rotulo">UF</td>
+                <td>
+                    <select name="uf">
+                        <option>AC</option>
+                        <option>AL</option>
+                        <option>AP</option>
+                        <option>AM</option>
+                        <option selected>BA</option>
+                        <option>CE</option>
+                        <option>DF</option>
+                        <option>ES</option>
+                        <option>GO</option>
+                        <option>MA</option>
+                        <option>MT</option>
+                        <option>MS</option>
+                        <option>MG</option>
+                        <option>PA</option>
+                        <option>PB</option>
+                        <option>PR</option>
+                        <option>PE</option>
+                        <option>PI</option>
+                        <option>RJ</option>
+                        <option>RN</option>
+                        <option>RS</option>
+                        <option>RO</option>
+                        <option>RR</option>
+                        <option>SC</option>
+                        <option>SP</option>
+                        <option>SE</option>
+                        <option>TO</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td class="rotulo">Telefone</td>
+                <td><input type="text" name="telefone"></td>
+                <td class="rotulo">Fax</td>
+                <td><input type="text" name="fax"></td>
+            </tr>
+            <tr>
+                <td class="rotulo">Data Nascimento</td>
+                <td><input type="text" name="nascimento"></td>
+                <td class="rotulo">Sexo</td>
+                <td>
+                    <input type="radio" name="sexo"> M
+                    <input type="radio" name="sexo"> F
+                </td>
+            </tr>
+            <tr>
+                <td class="rotulo">Celular</td>
+                <td><input type="text" name="celular"></td>
+                <td class="rotulo">Est.Civil</td>
+                <td>
+                    <select name="civil">
+                        <option>Solteiro</option>
+                        <option>Casado</option>
+                        <option>Viúvo</option>
+                        <option>Divorciado</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td class="rotulo">Login</td>
+                <td><input type="text" name="login"></td>
+                <td class="rotulo">Senha</td>
+                <td><input type="password" name="senha"></td>
+            </tr>
+        </table>
+
+        <p>Deseja receber informações sobre os seguintes assuntos abaixo:</p>
+
+        <p class="assuntos">
+            <label><input type="checkbox" name="assunto"> Tecnologia</label>
+            <label><input type="checkbox" name="assunto"> Esportes</label>
+            <label><input type="checkbox" name="assunto"> Automóveis</label>
+            <label><input type="checkbox" name="assunto"> Culinária</label>
+            <label><input type="checkbox" name="assunto"> Política</label>
+            <label><input type="checkbox" name="assunto"> Policial</label>
+            <label><input type="checkbox" name="assunto"> Tempo</label>
+        </p>
+
+        <p class="assuntos">
+            <label><input type="checkbox" name="assunto"> Cultura</label>
+            <label><input type="checkbox" name="assunto"> Economia</label>
+            <label><input type="checkbox" name="assunto"> Jogos</label>
+            <label><input type="checkbox" name="assunto"> Educação</label>
+            <label><input type="checkbox" name="assunto"> Viagem</label>
+            <label><input type="checkbox" name="assunto"> Empregos</label>
+            <label><input type="checkbox" name="assunto"> Moda e Estilo</label>
+        </p>
+
+        <p><label><input type="checkbox" name="regras"> Li as regras de cadastro e autorizo a criação do usuário</label>
+        </p>
+
+        <p id="botoes">
+            <input type="submit" value="Confirmar">
+            <input type="reset" value="Retornar">
+        </p>
+    </form>
+</body>
+
+</html>
