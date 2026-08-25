@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Bruno Araujo">
+    <title>Mini DataSales</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <main class="container">
+
+        <!-- Título do dashboard -->
+        <header class="cabecalho">
+            <h1 class="cabecalho__titulo">
+                <span class="cabecalho__icone" aria-hidden="true"></span>
+                Mini DataSales
+            </h1>
+            <p class="cabecalho__subtitulo">Dashboard de Vendas</p>
+        </header>
+
+        <!-- Cards de indicadores -->
+        <section class="indicadores" aria-label="Indicadores de vendas">
+
+            <div class="card card--verde">
+                <div class="card__icone" aria-hidden="true">&#128176;</div>
+                <div class="card__conteudo">
+                    <p class="card__rotulo">Receita Total</p>
+                    <p class="card__valor" id="receita-total">R$ 0,00</p>
+                    <p class="card__comparativo">
+                        vs mês anterior
+                        <span class="variacao variacao--alta">&#9650; 12,5%</span>
+                    </p>
+                </div>
+            </div>
+
+            <div class="card card--azul">
+                <div class="card__icone" aria-hidden="true">&#128722;</div>
+                <div class="card__conteudo">
+                    <p class="card__rotulo">Total de Vendas</p>
+                    <p class="card__valor" id="total-vendas">0</p>
+                    <p class="card__comparativo">
+                        vs mês anterior
+                        <span class="variacao variacao--alta">&#9650; 8,2%</span>
+                    </p>
+                </div>
+            </div>
+
+            <div class="card card--amarelo">
+                <div class="card__icone" aria-hidden="true">&#128200;</div>
+                <div class="card__conteudo">
+                    <p class="card__rotulo">Ticket Médio</p>
+                    <p class="card__valor" id="ticket-medio">R$ 0,00</p>
+                    <p class="card__comparativo">
+                        vs mês anterior
+                        <span class="variacao variacao--baixa">&#9660; 3,1%</span>
+                    </p>
+                </div>
+            </div>
+
+            <!-- Personalização: indicador extra de melhor categoria -->
+            <div class="card card--roxo">
+                <div class="card__icone" aria-hidden="true">&#127942;</div>
+                <div class="card__conteudo">
+                    <p class="card__rotulo">Categoria Destaque</p>
+                    <p class="card__valor" id="categoria-destaque">—</p>
+                    <p class="card__comparativo">maior receita no período</p>
+                </div>
+            </div>
+
+        </section>
+
+        <!-- Área de filtro -->
+        <section class="filtros" aria-label="Filtro de vendas">
+            <div class="secao__cabecalho">
+                <h2 class="secao__titulo">Filtro</h2>
+                <span class="selo" id="selo-filtro">Todas as Categorias</span>
+            </div>
+
+            <form class="filtros__form" id="form-filtro">
+                <div class="filtros__campo">
+                    <label for="categoria">Categoria:</label>
+                    <select id="categoria" name="categoria">
+                        <option value="todas">Todas as Categorias</option>
+                        <option value="Informática">Informática</option>
+                        <option value="Móveis">Móveis</option>
+                        <option value="Eletrônicos">Eletrônicos</option>
+                        <option value="Outros">Outros</option>
+                    </select>
+                </div>
+
+                <button type="submit" class="botao botao--primario" id="filtrar">
+                    <span aria-hidden="true">&#128269;</span> Filtrar
+                </button>
+
+                <button type="button" class="botao botao--secundario" id="limpar">
+                    Limpar
+                </button>
+            </form>
+        </section>
+
+        <!-- Painel: gráfico e tabela lado a lado no desktop -->
+        <div class="painel">
+
+            <!-- Área do gráfico -->
+            <section class="grafico" aria-label="Vendas por categoria">
+                <h2 class="secao__titulo">Vendas por Categoria</h2>
+
+                <div class="grafico__corpo">
+                    <div class="area-grafico" id="area-grafico">
+                        <!-- As barras são geradas pelo JavaScript (js/script.js) -->
+                        <p class="area-grafico__vazio">O gráfico será exibido aqui</p>
+                    </div>
+
+                    <ul class="legenda" id="legenda-grafico">
+                        <!-- A legenda é gerada pelo JavaScript -->
+                    </ul>
+                </div>
+            </section>
+
+            <!-- Tabela de vendas -->
+            <section class="tabela" aria-label="Últimas vendas">
+                <h2 class="secao__titulo">Últimas Vendas</h2>
+
+                <div class="tabela__scroll">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th scope="col">Data</th>
+                                <th scope="col">Produto</th>
+                                <th scope="col">Categoria</th>
+                                <th scope="col" class="col-valor">Valor</th>
+                            </tr>
+                        </thead>
+                        <tbody id="tabela-vendas">
+                            <!-- As linhas são geradas pelo JavaScript -->
+                        </tbody>
+                    </table>
+                </div>
+
+                <p class="tabela__rodape" id="resumo-tabela"></p>
+            </section>
+
+        </div>
+
+        <!-- Rodapé -->
+        <footer class="rodape">
+            <p>Mini DataSales &copy; 2026 &bull; Programação Web &bull; Ciência de Dados para Negócios</p>
+        </footer>
+
+    </main>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
