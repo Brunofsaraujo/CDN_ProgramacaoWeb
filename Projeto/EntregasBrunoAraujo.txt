@@ -1,0 +1,3 @@
+GitHub para a disciplina - https://github.com/Brunofsaraujo/CDN_ProgramacaoWeb
+Projeto mini-datasales 	 - https://github.com/Brunofsaraujo/CDN_ProgramacaoWeb/tree/main/Projeto/mini-datasales 
+Deploy online		 - fatecbrunoaraujo.pythonanywhere.com
