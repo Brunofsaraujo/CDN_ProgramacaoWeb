@@ -1,0 +1,15 @@
+C:\_Pessoas\Bruno.Araujo\CDN_PWEB\Pratica\PrimeiroBackend\bin\Debug\net10.0\PrimeiroBackend.exe
+C:\_Pessoas\Bruno.Araujo\CDN_PWEB\Pratica\PrimeiroBackend\bin\Debug\net10.0\PrimeiroBackend.deps.json
+C:\_Pessoas\Bruno.Araujo\CDN_PWEB\Pratica\PrimeiroBackend\bin\Debug\net10.0\PrimeiroBackend.runtimeconfig.json
+C:\_Pessoas\Bruno.Araujo\CDN_PWEB\Pratica\PrimeiroBackend\bin\Debug\net10.0\PrimeiroBackend.dll
+C:\_Pessoas\Bruno.Araujo\CDN_PWEB\Pratica\PrimeiroBackend\bin\Debug\net10.0\PrimeiroBackend.pdb
+C:\_Pessoas\Bruno.Araujo\CDN_PWEB\Pratica\PrimeiroBackend\obj\Debug\net10.0\PrimeiroBackend.GeneratedMSBuildEditorConfig.editorconfig
+C:\_Pessoas\Bruno.Araujo\CDN_PWEB\Pratica\PrimeiroBackend\obj\Debug\net10.0\PrimeiroBackend.AssemblyInfoInputs.cache
+C:\_Pessoas\Bruno.Araujo\CDN_PWEB\Pratica\PrimeiroBackend\obj\Debug\net10.0\PrimeiroBackend.AssemblyInfo.cs
+C:\_Pessoas\Bruno.Araujo\CDN_PWEB\Pratica\PrimeiroBackend\obj\Debug\net10.0\PrimeiroBackend.csproj.CoreCompileInputs.cache
+C:\_Pessoas\Bruno.Araujo\CDN_PWEB\Pratica\PrimeiroBackend\obj\Debug\net10.0\PrimeiroBackend.sourcelink.json
+C:\_Pessoas\Bruno.Araujo\CDN_PWEB\Pratica\PrimeiroBackend\obj\Debug\net10.0\PrimeiroBackend.dll
+C:\_Pessoas\Bruno.Araujo\CDN_PWEB\Pratica\PrimeiroBackend\obj\Debug\net10.0\refint\PrimeiroBackend.dll
+C:\_Pessoas\Bruno.Araujo\CDN_PWEB\Pratica\PrimeiroBackend\obj\Debug\net10.0\PrimeiroBackend.pdb
+C:\_Pessoas\Bruno.Araujo\CDN_PWEB\Pratica\PrimeiroBackend\obj\Debug\net10.0\PrimeiroBackend.genruntimeconfig.cache
+C:\_Pessoas\Bruno.Araujo\CDN_PWEB\Pratica\PrimeiroBackend\obj\Debug\net10.0\ref\PrimeiroBackend.dll
