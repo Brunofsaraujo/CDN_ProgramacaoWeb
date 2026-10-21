@@ -1,0 +1,15 @@
+C:\_Pessoas\Bruno.Araujo\CDN_PWEB\Pratica\AulaBackend\PrimeiraAula\bin\Debug\net10.0\PrimeiraAula.exe
+C:\_Pessoas\Bruno.Araujo\CDN_PWEB\Pratica\AulaBackend\PrimeiraAula\bin\Debug\net10.0\PrimeiraAula.deps.json
+C:\_Pessoas\Bruno.Araujo\CDN_PWEB\Pratica\AulaBackend\PrimeiraAula\bin\Debug\net10.0\PrimeiraAula.runtimeconfig.json
+C:\_Pessoas\Bruno.Araujo\CDN_PWEB\Pratica\AulaBackend\PrimeiraAula\bin\Debug\net10.0\PrimeiraAula.dll
+C:\_Pessoas\Bruno.Araujo\CDN_PWEB\Pratica\AulaBackend\PrimeiraAula\bin\Debug\net10.0\PrimeiraAula.pdb
+C:\_Pessoas\Bruno.Araujo\CDN_PWEB\Pratica\AulaBackend\PrimeiraAula\obj\Debug\net10.0\PrimeiraAula.GeneratedMSBuildEditorConfig.editorconfig
+C:\_Pessoas\Bruno.Araujo\CDN_PWEB\Pratica\AulaBackend\PrimeiraAula\obj\Debug\net10.0\PrimeiraAula.AssemblyInfoInputs.cache
+C:\_Pessoas\Bruno.Araujo\CDN_PWEB\Pratica\AulaBackend\PrimeiraAula\obj\Debug\net10.0\PrimeiraAula.AssemblyInfo.cs
+C:\_Pessoas\Bruno.Araujo\CDN_PWEB\Pratica\AulaBackend\PrimeiraAula\obj\Debug\net10.0\PrimeiraAula.csproj.CoreCompileInputs.cache
+C:\_Pessoas\Bruno.Araujo\CDN_PWEB\Pratica\AulaBackend\PrimeiraAula\obj\Debug\net10.0\PrimeiraAula.sourcelink.json
+C:\_Pessoas\Bruno.Araujo\CDN_PWEB\Pratica\AulaBackend\PrimeiraAula\obj\Debug\net10.0\PrimeiraAula.dll
+C:\_Pessoas\Bruno.Araujo\CDN_PWEB\Pratica\AulaBackend\PrimeiraAula\obj\Debug\net10.0\refint\PrimeiraAula.dll
+C:\_Pessoas\Bruno.Araujo\CDN_PWEB\Pratica\AulaBackend\PrimeiraAula\obj\Debug\net10.0\PrimeiraAula.pdb
+C:\_Pessoas\Bruno.Araujo\CDN_PWEB\Pratica\AulaBackend\PrimeiraAula\obj\Debug\net10.0\PrimeiraAula.genruntimeconfig.cache
+C:\_Pessoas\Bruno.Araujo\CDN_PWEB\Pratica\AulaBackend\PrimeiraAula\obj\Debug\net10.0\ref\PrimeiraAula.dll

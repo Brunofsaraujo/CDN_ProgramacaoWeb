@@ -19,7 +19,7 @@
                 <span class="cabecalho__icone" aria-hidden="true"></span>
                 Mini DataSales
             </h1>
-            <p class="cabecalho__subtitulo">Dashboard de Vendas</p>
+            <p class="cabecalho__subtitulo">Dashboard de Vendas &bull; dados da API em .NET</p>
         </header>
 
         <!-- Cards de indicadores -->
@@ -102,6 +102,48 @@
             </form>
         </section>
 
+        <!-- Cadastro de nova venda (enviada para a API com POST) -->
+        <section class="filtros cadastro" aria-label="Cadastrar venda">
+            <h2 class="secao__titulo" id="titulo-cadastro">Cadastrar Venda</h2>
+
+            <form class="filtros__form" id="form-cadastro">
+                <!-- Guarda o Id da venda em edição; vazio = nova venda -->
+                <input type="hidden" id="venda-id" name="id">
+                <div class="filtros__campo">
+                    <label for="nova-data">Data:</label>
+                    <input type="date" id="nova-data" name="data" required>
+                </div>
+
+                <div class="filtros__campo">
+                    <label for="novo-produto">Produto:</label>
+                    <input type="text" id="novo-produto" name="produto" required>
+                </div>
+
+                <div class="filtros__campo">
+                    <label for="nova-categoria">Categoria:</label>
+                    <select id="nova-categoria" name="categoria">
+                        <option value="Informática">Informática</option>
+                        <option value="Móveis">Móveis</option>
+                        <option value="Eletrônicos">Eletrônicos</option>
+                        <option value="Outros">Outros</option>
+                    </select>
+                </div>
+
+                <div class="filtros__campo">
+                    <label for="novo-valor">Valor:</label>
+                    <input type="number" id="novo-valor" name="valor" min="0.01" step="0.01" required>
+                </div>
+
+                <button type="submit" class="botao botao--primario" id="botao-salvar">Cadastrar</button>
+
+                <button type="button" class="botao botao--secundario" id="cancelar-edicao" hidden>
+                    Cancelar
+                </button>
+            </form>
+
+            <p class="cadastro__mensagem" id="mensagem-cadastro" role="status"></p>
+        </section>
+
         <!-- Painel: gráfico e tabela lado a lado no desktop -->
         <div class="painel">
 
@@ -133,6 +175,7 @@
                                 <th scope="col">Produto</th>
                                 <th scope="col">Categoria</th>
                                 <th scope="col" class="col-valor">Valor</th>
+                                <th scope="col" class="col-acoes">Ações</th>
                             </tr>
                         </thead>
                         <tbody id="tabela-vendas">

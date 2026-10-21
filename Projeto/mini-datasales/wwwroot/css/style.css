@@ -354,11 +354,41 @@ select {
 		box-shadow var(--transicao);
 }
 
-select:hover {
+/* Campos do formulario de cadastro: mesmo visual do select, sem a seta */
+input {
+	font: inherit;
+	font-size: 1rem;
+	color: inherit;
+	padding: 9px 13px;
+	border: 1px solid var(--cor-borda);
+	border-radius: var(--raio-pequeno);
+	background: var(--cor-superficie);
+	transition:
+		border-color var(--transicao),
+		box-shadow var(--transicao);
+}
+
+select:hover,
+input:hover {
 	border-color: #cbd5e1;
 }
 
+.cadastro select {
+	min-width: 170px;
+}
+
+.cadastro__mensagem {
+	margin-top: 12px;
+	font-size: 1rem;
+	color: var(--cor-texto-medio);
+}
+
+.cadastro__mensagem--erro {
+	color: var(--cor-vermelho);
+}
+
 select:focus-visible,
+input:focus-visible,
 .botao:focus-visible {
 	outline: none;
 	border-color: var(--cor-primaria);
@@ -617,6 +647,38 @@ td.col-valor {
 	font-variant-numeric: tabular-nums;
 }
 
+/* Coluna de botoes Editar / Excluir */
+.col-acoes {
+	text-align: right;
+}
+
+td.col-acoes {
+	display: flex;
+	justify-content: flex-end;
+	gap: 6px;
+}
+
+td.col-acoes .botao--pequeno {
+	font-size: 0.9rem;
+	padding: 5px 10px;
+	width: auto;
+}
+
+.botao--perigo {
+	background: var(--cor-superficie);
+	color: var(--cor-vermelho);
+	border-color: #fecaca;
+}
+
+.botao--perigo:hover {
+	background: #fee2e2;
+}
+
+/* Botoes escondidos via atributo hidden (ex.: Cancelar fora do modo edicao) */
+.botao[hidden] {
+	display: none;
+}
+
 .tabela__vazio {
 	text-align: center;
 	color: var(--cor-texto-suave);
@@ -834,6 +896,7 @@ tbody tr:nth-child(10) {
 
 	.filtros__campo,
 	select,
+	input,
 	.botao {
 		width: 100%;
 		min-width: 0;
